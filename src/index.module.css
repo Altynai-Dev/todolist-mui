@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    list-style-type: none;
+}
+
+.list_item{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.completed{
+    color: green;
+    text-decoration: line-through;
+}
+
+.undone{
+    color: red;
+}
